@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/assets/player.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header>
+      <h1>hands off!</h1>
+    </header>
+    <main>
+      <canvas id="gameCanvas"></canvas>
+      <div id="gameStartDiv" class="gameUI">
+        <p>The office brought free muffins!</p>
+        <p>They were supposed to be an incentive to clean the kicthen..</p>
+        <p>You are the last one left!</p>
+        <p>Dodge workers' hands and collect as many berries as you can!</p>
+        <p>Knock trash into their hands to occupy them!</p>
+        <p>Use the arrow keys to move, good luck!</p>
+        <button id="gameStartBtn"><p>start</p></button>
+      </div>
+      <div id="gameEndDiv" class="gameUI">
+        <p>You got caught!</p>
+        <h1>Final Score: <span id="gameEndScoreSpan"></span></h1>
+        <p>Refresh the Page to play again</p>
+      </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        made with love by teddy
+      </p>
+    </footer>
+    <script type="module" src="/scripts/main.js"></script>
+  </body>
+</html>
